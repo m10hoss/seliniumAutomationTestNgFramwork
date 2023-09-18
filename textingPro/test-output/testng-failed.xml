@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestNG Sample]">
+  <test thread-count="5" name="LogIn Test(failed)">
+    <classes>
+      <class name="LogIn.SuccessfulLogInTest">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="beforeMetohod"/>
+          <include name="beforeSuit"/>
+          <include name="CloseBrowser"/>
+          <include name="VerifySuccessfulLogIn"/>
+          <include name="afterSuit"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- LogIn.SuccessfulLogInTest -->
+    </classes>
+  </test> <!-- LogIn Test(failed) -->
+  <test thread-count="5" name="EmailUs Test(failed)">
+    <classes>
+      <class name="EmailUs.EmailUsTest">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="beforeMetohod"/>
+          <include name="VerifyEmailUs"/>
+          <include name="beforeSuit"/>
+          <include name="CloseBrowser"/>
+          <include name="afterSuit"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- EmailUs.EmailUsTest -->
+    </classes>
+  </test> <!-- EmailUs Test(failed) -->
+  <test thread-count="5" name="ContactUs Test(failed)">
+    <classes>
+      <class name="ContactUs.ContactUsTest">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="beforeMetohod"/>
+          <include name="VerifyContactUs"/>
+          <include name="beforeSuit"/>
+          <include name="CloseBrowser"/>
+          <include name="afterSuit"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- ContactUs.ContactUsTest -->
+    </classes>
+  </test> <!-- ContactUs Test(failed) -->
+</suite> <!-- Failed suite [TestNG Sample] -->

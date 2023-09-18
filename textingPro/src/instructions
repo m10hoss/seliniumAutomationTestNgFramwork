@@ -1,0 +1,43 @@
+Open test.textingpro website.
+ 2) Click on the login menu. 
+            not working driver giving me error---not opening
+
+3) Log in with below credential.
+            havent tried---
+
+ 4) Verify use is logged in and see re-new page. 
+
+5) Click on the user Icon in the right c order. 
+
+6) Click on the logout button from it.
+
+ 7) Verify user successfully logout
+
+.   => Negative logged in scenario:  
+
+Open test.textingpro website. 
+
+2) Click on the login menu. 
+
+3) Verify user is on login page. 
+
+4) Enter “test” in email address field. 
+
+5) Verify “Please enter a valid email address.” Error message from textbox.
+
+..................
+
+Contact Us form
+
+1. open text.textingpro website
+2. click on the contact us menu
+3. fill all contact us form all frields
+4. click on send button
+5. Verify "Thank you" message of javascript pop
+6. click ok on the message
+
+
+
+
+
+public void doubleClick(By by) { 		getHighlingElement(driver.findElement(by)); 		Actions actions = new Actions(driver); 		WebElement elementLocator = driver.findElement(by); 		actions.doubleClick(elementLocator).perform(); 	}  	public void HitENTER(By by) { 		getHighlingElement(driver.findElement(by)); 		driver.findElement(by).sendKeys(Keys.ENTER);  	}
